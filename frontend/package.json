@@ -1,0 +1,38 @@
+{
+  "name": "dcmp-frontend",
+  "version": "1.0.0",
+  "description": "dcmp-frontend",
+  "main": " app/main.js",
+  "scripts": {
+    "publish": "NODE_ENV=production webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/silenceper/dcmp/"
+  },
+  "keywords": [
+    "etcd",
+    "confd",
+    "Distributed"
+  ],
+  "author": "silenceper",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-bootstrap": "^0.30.0-rc.2",
+    "react-codemirror": "^0.2.6",
+    "react-treebeard": "^1.1.2",
+    "reqwest": "^2.0.5",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1"
+  }
+}
