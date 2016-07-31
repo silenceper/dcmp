@@ -1,4 +1,3 @@
-import data from "../components/data.js";
 import reqwest from "reqwest";
 
 function processResponse(resp, cb) {
