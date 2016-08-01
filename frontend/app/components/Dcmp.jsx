@@ -41,7 +41,7 @@ class Dcmp extends React.Component {
     }
 
     var inputValue = prompt("请输入需要新建的名字", "")
-    if (inputValue == "") {
+    if (inputValue == null || inputValue == "") {
       alert("请输入文件名");
       return;
     }
@@ -75,6 +75,7 @@ class Dcmp extends React.Component {
     if (cursorNode && !cursorNode.dir) {
       Request.saveCode(cursorNode.path, this.state.code, function(data) {
         cursorNode.value = data.node.value;
+        alert("保存成功")
       }.bind(this));
     }
   }
