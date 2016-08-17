@@ -14,7 +14,7 @@ func main() {
 
 	cfg = getConfig()
 
-	etcd.InitConfig(cfg.Endpoints)
+	etcd.InitConfig(cfg.Endpoints, cfg.CaFile, cfg.CertFile, cfg.KeyFile)
 
 	r := gin.Default()
 	registerRouter(r)

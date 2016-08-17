@@ -10,6 +10,9 @@ import (
 type config struct {
 	Listen    string   `yaml:"listen"`
 	Endpoints []string `yaml:"endpoints"`
+	CaFile    string   `yaml:"ca_file"`
+	CertFile  string   `yaml:"cert_file"`
+	KeyFile   string   `yaml:"key_file"`
 }
 
 func getConfig() *config {
