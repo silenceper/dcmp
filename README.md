@@ -1,5 +1,5 @@
 # DCMP 
-[![Build Status](https://travis-ci.org/silenceper/dcmp.svn?branch=master)](https://travis-ci.org/silenceper/dcmp)
+[![Build Status](https://travis-ci.org/silenceper/dcmp.svg?branch=master)](https://travis-ci.org/silenceper/dcmp)
 
 
 Distributed Configuration Management Platform
