@@ -26,4 +26,3 @@ _testmain.go
 .DS_Store
 bin/dcmp
 node_modules
-vendor/*/
