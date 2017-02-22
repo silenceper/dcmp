@@ -10,6 +10,7 @@ import (
 type config struct {
 	Listen    string   `yaml:"listen"`
 	Endpoints []string `yaml:"endpoints"`
+	BasePath  string   `yaml:"base_path"`
 	CaFile    string   `yaml:"ca_file"`
 	CertFile  string   `yaml:"cert_file"`
 	KeyFile   string   `yaml:"key_file"`
