@@ -23,7 +23,7 @@ func doIndex(c *gin.Context) {
 }
 
 func doKeyList(c *gin.Context) {
-	resp, err := etcd.GetKeyList("/config")
+	resp, err := etcd.GetKeyList(cfg.BasePath)
 	if err != nil {
 		util.RenderError(c, -1, err.Error())
 		return

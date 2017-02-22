@@ -1,5 +1,7 @@
 listen: "0.0.0.0:8000"
 
+base_path: "/config"
+
 # etcd ssl support config
 #
 # ca_file: "/path/to/ca.crt"
