@@ -9,8 +9,26 @@
 			"revisionTime": "2016-08-17T02:52:34Z"
 		},
 		{
+			"checksumSHA1": "JhbEKzNRDnXICXqMDLphh+Gz9oM=",
+			"path": "github.com/coreos/etcd/pkg/fileutil",
+			"revision": "38c370a7c54fc64f58f9c329487d7104e353b549",
+			"revisionTime": "2016-08-17T02:52:34Z"
+		},
+		{
 			"checksumSHA1": "mKIXx1kDwmVmdIpZ3pJtRBuUKso=",
 			"path": "github.com/coreos/etcd/pkg/pathutil",
+			"revision": "38c370a7c54fc64f58f9c329487d7104e353b549",
+			"revisionTime": "2016-08-17T02:52:34Z"
+		},
+		{
+			"checksumSHA1": "rMyIh9PsSvPs6Yd+YgKITQzQJx8=",
+			"path": "github.com/coreos/etcd/pkg/tlsutil",
+			"revision": "38c370a7c54fc64f58f9c329487d7104e353b549",
+			"revisionTime": "2016-08-17T02:52:34Z"
+		},
+		{
+			"checksumSHA1": "HsWrvEjuu5zM8IaOlCFqc80Jb+M=",
+			"path": "github.com/coreos/etcd/pkg/transport",
 			"revision": "38c370a7c54fc64f58f9c329487d7104e353b549",
 			"revisionTime": "2016-08-17T02:52:34Z"
 		},
@@ -19,6 +37,18 @@
 			"path": "github.com/coreos/etcd/pkg/types",
 			"revision": "38c370a7c54fc64f58f9c329487d7104e353b549",
 			"revisionTime": "2016-08-17T02:52:34Z"
+		},
+		{
+			"checksumSHA1": "d50/+u/LFlXvEV10HiEoXB9OsGg=",
+			"path": "github.com/coreos/go-systemd/journal",
+			"revision": "bfdc81d0d7e0fb19447b08571f63b774495251ce",
+			"revisionTime": "2016-08-15T18:53:29Z"
+		},
+		{
+			"checksumSHA1": "XOoETj0U8GXE7B51aYwBBde6XaM=",
+			"path": "github.com/coreos/pkg/capnslog",
+			"revision": "3ac0863d7acf3bc44daf49afef8919af12f704ef",
+			"revisionTime": "2016-07-27T23:37:14Z"
 		},
 		{
 			"checksumSHA1": "RsNwOto8G8aXIiRrlFn4dtU9q/g=",
